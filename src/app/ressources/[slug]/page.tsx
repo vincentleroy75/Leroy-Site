@@ -40,8 +40,8 @@ const articles: Record<string, Article> = {
         <p>Loyer, salaires, charges fixes, remboursement d&apos;emprunts professionnels : ces dépenses continuent même si vous ne travaillez plus. Une garantie frais généraux peut prendre en charge ces coûts pendant votre incapacité.</p>
         <h3>5. La protection en cas de décès</h3>
         <p>En cas de décès, votre famille ou vos associés bénéficient-ils d&apos;une protection adaptée ? La garantie décès de votre régime est souvent très limitée.</p>
-        <AlertBox type="info" title="Rappel réglementaire">
-          Les informations présentées ici sont générales. Les montants réels des garanties dépendent de votre régime spécifique, de vos cotisations et de votre situation personnelle. Une analyse individuelle est nécessaire.
+        <AlertBox type="info">
+          <strong>Rappel réglementaire :</strong> Les informations présentées ici sont générales. Les montants réels des garanties dépendent de votre régime spécifique, de vos cotisations et de votre situation personnelle. Une analyse individuelle est nécessaire.
         </AlertBox>
         <h2>Comment réaliser ce bilan ?</h2>
         <p>Réunissez vos relevés de situation de votre caisse de retraite et prévoyance, listez vos charges fixes mensuelles (professionnelles et personnelles), et faites le point avec un conseiller spécialisé. Le bilan prend généralement 30 à 45 minutes et permet d&apos;avoir une vision claire de votre situation.</p>
@@ -81,8 +81,8 @@ const articles: Record<string, Article> = {
           <li>Les frais généraux du cabinet pendant l&apos;arrêt</li>
           <li>Une rente d&apos;invalidité en cas d&apos;arrêt prolongé</li>
         </ul>
-        <AlertBox type="info" title="Note">
-          Les conditions exactes (délai de carence, montants, durée de versement) varient selon le contrat choisi et votre situation. Une analyse personnalisée est nécessaire pour évaluer ce qui correspond à votre cas.
+        <AlertBox type="info">
+          <strong>Note :</strong> Les conditions exactes (délai de carence, montants, durée de versement) varient selon le contrat choisi et votre situation. Une analyse personnalisée est nécessaire pour évaluer ce qui correspond à votre cas.
         </AlertBox>
         <p><Link href="/prevoyance-professionnelle" className="text-brand-blue font-medium hover:underline">→ En savoir plus sur la prévoyance professionnelle</Link></p>
       </div>
@@ -130,8 +130,8 @@ const articles: Record<string, Article> = {
         <p>Créé par la loi Pacte de 2019, le PER individuel remplace les anciens contrats Madelin et PERP. Il permet d&apos;épargner pour la retraite avec des versements volontaires déductibles du revenu imposable, dans la limite du plafond disponible.</p>
         <h3>La déductibilité fiscale</h3>
         <p>Pour les TNS, les versements sur un PERin peuvent être déduits du bénéfice imposable dans la limite du plafond dit "Madelin" (ou du plafond salarié, selon la structure et le choix retenu). Ce plafond est calculé en fonction des revenus professionnels.</p>
-        <AlertBox type="info" title="Précision importante">
-          La déductibilité fiscale dépend de votre situation précise (statut, structure juridique, revenus). Une analyse individuelle est nécessaire avant tout versement. Les règles fiscales peuvent évoluer.
+        <AlertBox type="info">
+          <strong>Précision importante :</strong> La déductibilité fiscale dépend de votre situation précise (statut, structure juridique, revenus). Une analyse individuelle est nécessaire avant tout versement. Les règles fiscales peuvent évoluer.
         </AlertBox>
         <h3>Les modalités de sortie</h3>
         <p>À la retraite, le PER permet une sortie en rente, en capital, ou en combinaison des deux. La fiscalité à la sortie dépend du mode de sortie choisi et de la déductibilité appliquée lors des versements.</p>
@@ -165,8 +165,8 @@ const articles: Record<string, Article> = {
         <h2>Un enjeu particulier pour les professions libérales</h2>
         <p>La définition de l&apos;ITT varie selon les contrats : certains retiennent l&apos;impossibilité d&apos;exercer TOUTE activité professionnelle (définition restrictive), d&apos;autres l&apos;impossibilité d&apos;exercer VOTRE profession. Cette nuance peut avoir un impact considérable en cas de sinistre.</p>
         <p>Pour un chirurgien, un dentiste ou un chirurgien-orthopédiste dont l&apos;activité dépend de la motricité fine, la définition "votre profession" est nettement plus protectrice.</p>
-        <AlertBox type="info" title="Rappel">
-          Toute substitution d&apos;assurance emprunteur doit offrir un niveau de garanties au moins équivalent à l&apos;assurance group de la banque. La banque dispose d&apos;un délai pour accepter ou refuser la substitution.
+        <AlertBox type="info">
+          <strong>Rappel :</strong> Toute substitution d&apos;assurance emprunteur doit offrir un niveau de garanties au moins équivalent à l&apos;assurance groupe de la banque. La banque dispose d&apos;un délai pour accepter ou refuser la substitution.
         </AlertBox>
         <p><Link href="/assurance-emprunteur" className="text-brand-blue font-medium hover:underline">→ En savoir plus sur l&apos;assurance emprunteur</Link></p>
       </div>
@@ -213,7 +213,7 @@ const articles: Record<string, Article> = {
         <p>Depuis le 1er janvier 2016, toute entreprise doit proposer une complémentaire santé collective à ses salariés, avec une prise en charge patronale d&apos;au moins 50% de la cotisation. Le contrat doit respecter les critères du contrat responsable.</p>
         <h2>La prévoyance collective (décès, incapacité, invalidité)</h2>
         <p>Les obligations en matière de prévoyance collective (garanties décès, incapacité de travail, invalidité) dépendent de la convention collective applicable à votre secteur. Certaines conventions imposent des garanties minimales précises, d&apos;autres laissent plus de liberté à l&apos;employeur.</p>
-        <AlertBox type="warning" title="Risque employeur">
+        <AlertBox type="warning">
           En cas de sinistre sur un salarié sans prévoyance collective conforme à la convention collective applicable, l&apos;employeur peut être tenu de verser de sa propre poche les prestations que le contrat aurait dû verser. La vérification de conformité est essentielle.
         </AlertBox>
         <h2>Au-delà des obligations : la surcomplémentaire</h2>
@@ -250,8 +250,8 @@ const articles: Record<string, Article> = {
         <p>Pendant votre arrêt, le loyer, les charges, les salaires des assistants continuent. Si vous n&apos;avez pas de garantie frais généraux, vous devez puiser dans votre trésorerie personnelle ou professionnelle.</p>
         <h3>La définition de l&apos;invalidité professionnelle</h3>
         <p>Un médecin spécialiste (chirurgien, ophtalmologiste, etc.) peut être en incapacité d&apos;exercer SA spécialité tout en étant théoriquement apte à exercer une autre activité médicale. La définition de l&apos;invalidité dans votre contrat complémentaire doit couvrir cette situation.</p>
-        <AlertBox type="info" title="Note">
-          Les montants des garanties CARMF varient selon les options souscrites et l&apos;historique de cotisations. Une simulation personnalisée est recommandée pour connaître votre niveau de protection réel.
+        <AlertBox type="info">
+          <strong>Note :</strong> Les montants des garanties CARMF varient selon les options souscrites et l&apos;historique de cotisations. Une simulation personnalisée est recommandée pour connaître votre niveau de protection réel.
         </AlertBox>
         <p><Link href="/prevoyance-medecin" className="text-brand-blue font-medium hover:underline">→ Voir la page dédiée à la prévoyance médecin</Link></p>
       </div>
@@ -371,8 +371,8 @@ const articles: Record<string, Article> = {
         <p>Le président de SASU n&apos;est pas affilié à l&apos;assurance chômage Unédic (sauf accord d&apos;entreprise spécifique). En cas de cessation de la SASU, il ne bénéficie pas des allocations chômage classiques.</p>
         <h3>Les charges fixes de la société</h3>
         <p>En cas d&apos;arrêt, la SASU continue de supporter ses charges : loyer, abonnements, crédits professionnels, salaires des éventuels autres salariés. Sans organisation préalable, le dirigeant se retrouve dans une situation délicate.</p>
-        <AlertBox type="info" title="Précision">
-          La situation de chaque dirigeant de SASU est unique selon la rémunération choisie, les cotisations versées et la structure de la société. Seule une analyse individuelle permet de déterminer les lacunes réelles et les solutions adaptées.
+        <AlertBox type="info">
+          <strong>Précision :</strong> La situation de chaque dirigeant de SASU est unique selon la rémunération choisie, les cotisations versées et la structure de la société. Seule une analyse individuelle permet de déterminer les lacunes réelles et les solutions adaptées.
         </AlertBox>
         <p><Link href="/prevoyance-dirigeant" className="text-brand-blue font-medium hover:underline">→ En savoir plus sur la prévoyance dirigeant</Link></p>
       </div>
