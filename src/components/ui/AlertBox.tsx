@@ -16,3 +16,4 @@ export default function AlertBox({ children, type = "info" }: AlertBoxProps) {
     </div>
   );
 }
+;
