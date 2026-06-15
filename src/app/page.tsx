@@ -107,29 +107,29 @@ const targets = [
 
 const faqItems = [
   {
-    question: "Quelle est la différence entre un agent général et un courtier en assurance ?",
+    question: "Que couvre vraiment le régime obligatoire d'un indépendant ou profession libérale en cas d'arrêt de travail ?",
     answer:
-      "Un agent général AXA représente exclusivement AXA et ses produits. Il est mandaté par la compagnie et dispose d'une relation de proximité et de durée avec ses clients. Un courtier travaille en revanche avec plusieurs compagnies. L'avantage de l'agent général : une expertise profonde des produits d'une compagnie reconnue et un interlocuteur stable dans le temps.",
+      "Le régime obligatoire couvre peu, et souvent insuffisamment. Les indemnités journalières versées par les caisses comme la CARMF (médecins), la CIPAV (professions libérales), la CARPIMKO (auxiliaires médicaux) ou la CNBF (avocats) représentent en général 30 à 50 % des revenus habituels — avec des délais de carence de 3 à 90 jours selon les caisses. En cas d'arrêt prolongé, les charges fixes (loyers, cotisations, emprunts) continuent de courir. Une prévoyance complémentaire individuelle permet de combler cet écart et de maintenir votre niveau de vie jusqu'à la reprise d'activité.",
   },
   {
-    question: "Pourquoi ma prévoyance professionnelle actuelle ne suffit-elle peut-être pas ?",
+    question: "Comment préparer sa retraite quand on est TNS ou profession libérale ?",
     answer:
-      "Les régimes obligatoires des indépendants et professions libérales ont des taux de remplacement variables selon les caisses. En cas d'arrêt de travail, certains indépendants peuvent ne percevoir que 30 à 50 % de leurs revenus habituels. Une analyse personnalisée permet d'identifier les lacunes et d'y remédier avec des solutions adaptées.",
+      "Les TNS et professions libérales cotisent à des régimes de retraite obligatoire (RSI/SSI pour les artisans-commerçants, caisses spécifiques pour les professions libérales) dont les pensions sont souvent inférieures à celles des salariés. Pour compenser, deux outils principaux existent : le Plan d'Épargne Retraite (PER), qui permet de déduire les versements de votre revenu imposable, et les contrats Madelin (toujours en vigueur pour les anciens souscripteurs). Un bilan retraite personnalisé, réalisé à Paris ou Vincennes, permet d'estimer votre future pension et de définir l'effort d'épargne nécessaire selon votre situation.",
   },
   {
-    question: "Comment fonctionne un audit prévoyance gratuit ?",
+    question: "Quels sont les avantages fiscaux disponibles pour un TNS ou dirigeant en matière de prévoyance et de retraite ?",
     answer:
-      "L'audit dure 30 à 45 minutes. Nous analysons ensemble votre situation : statut professionnel, revenus, charges fixes, contrats existants, situation familiale et objectifs. À l'issue, vous repartez avec une vision claire des risques non couverts et des pistes de solution, sans engagement de votre part.",
+      "Les TNS et dirigeants peuvent bénéficier de déductions fiscales significatives, sous réserve d'éligibilité. Les cotisations de prévoyance et les versements retraite (PER, Madelin) sont déductibles du bénéfice imposable dans les limites fixées par l'article 154 bis du CGI — jusqu'à 10 % du bénéfice imposable pour la retraite et 7,5 % pour la prévoyance complémentaire. Pour un dirigeant assimilé salarié (SASU, SAS), le régime de déductibilité peut différer. Une analyse personnalisée de votre structure juridique et de votre niveau de rémunération est indispensable pour optimiser votre protection sociale tout en réduisant votre charge fiscale.",
   },
   {
-    question: "Intervenez-vous uniquement à Paris et Vincennes ?",
+    question: "Qu'arrive-t-il financièrement à mon entreprise et ma famille si je deviens invalide ou si je décède ?",
     answer:
-      "Mon cabinet est basé à Paris et Vincennes, mais j'accompagne des clients dans tout le Val-de-Marne et en Île-de-France. Les rendez-vous peuvent se faire en cabinet, dans vos locaux ou en visioconférence selon votre préférence.",
+      "En cas d'invalidité ou de décès, les conséquences financières pour un indépendant ou un dirigeant peuvent être immédiates et graves : perte de revenus, impossibilité d'honorer les charges fixes, transmission d'une dette aux héritiers ou blocage de la trésorerie de l'entreprise. Une prévoyance professionnelle bien calibrée peut prévoir une rente d'invalidité partielle ou totale, un capital décès pour protéger vos proches, et une garantie homme-clé pour sécuriser la continuité de votre activité. Sans ces garanties, votre famille peut se retrouver dans une situation financière difficile, même si l'entreprise est saine.",
   },
   {
-    question: "Quelles garanties peut-on trouver dans une prévoyance professionnelle ?",
+    question: "Pourquoi réaliser un bilan social et patrimonial, et à quelle fréquence le mettre à jour ?",
     answer:
-      "Une prévoyance professionnelle peut couvrir : l'indemnisation journalière en arrêt de travail (maladie, accident), la rente d'invalidité partielle ou totale, le capital décès, et parfois la dépendance. Les niveaux de garantie et les délais de carence varient selon les contrats – c'est pourquoi une étude comparative est recommandée.",
+      "Un bilan social et patrimonial permet de faire le point sur l'ensemble de votre protection : prévoyance (arrêt de travail, invalidité, décès), retraite (épargne constituée, estimation de pension) et patrimoine (immobilier, placements, transmission). Il identifie les lacunes, les doublons de couverture et les opportunités d'optimisation fiscale. Il est recommandé de le réaliser à chaque étape clé : création ou reprise d'entreprise, changement de statut juridique, évolution significative des revenus, naissance ou mariage. En dehors de ces événements, une révision tous les 2 à 3 ans permet d'adapter vos contrats à l'évolution de votre situation personnelle et professionnelle.",
   },
 ];
 
@@ -408,7 +408,7 @@ export default function HomePage() {
         <div className="container-wide">
           <div className="max-w-3xl mx-auto">
             <h2 className="section-title text-center mb-10">Questions fréquentes</h2>
-            <FAQAccordion items={faqItems} />
+            <FAQAccordion items={faqItems} agencyLink />
           </div>
         </div>
       </section>
