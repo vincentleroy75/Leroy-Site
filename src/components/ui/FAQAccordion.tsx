@@ -10,9 +10,12 @@ interface FAQItem {
 interface FAQAccordionProps {
   items: FAQItem[];
   withSchema?: boolean;
+  agencyLink?: boolean;
 }
 
-export default function FAQAccordion({ items, withSchema = true }: FAQAccordionProps) {
+const AXA_AGENCY_URL = "https://agence.axa.fr/distributeur/0004554904";
+
+export default function FAQAccordion({ items, withSchema = true, agencyLink = false }: FAQAccordionProps) {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const schema = {
@@ -77,6 +80,23 @@ export default function FAQAccordion({ items, withSchema = true }: FAQAccordionP
           </div>
         ))}
       </div>
+      {agencyLink && (
+        <div className="mt-6 text-center">
+          <a
+            href={AXA_AGENCY_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-brand-blue font-medium text-sm hover:underline"
+          >
+            Voir la page officielle de mon agence AXA
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+              <polyline points="15 3 21 3 21 9" />
+              <line x1="10" y1="14" x2="21" y2="3" />
+            </svg>
+          </a>
+        </div>
+      )}
     </>
   );
 }
